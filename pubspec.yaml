@@ -1,0 +1,82 @@
+name: my_library
+description: "Your Bookstore App - Browse and buy books online" 
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.10+1
+  form_field_validator: ^1.1.0
+  cached_network_image: ^3.2.0
+  flutter_rating_bar: ^4.0.1
+  flutter_widget_from_html_core: ^0.17.0
+  animations: ^2.0.11
+  url_launcher: ^6.3.0
+  intl: ^0.20.2
+  firebase_core: ^4.0.0
+  cloud_firestore: ^6.0.0
+  firebase_auth: ^6.0.0
+  random_string: 
+  http: ^1.5.0
+  image_picker: ^1.1.2
+  path: ^1.8.0
+  sqflite: ^2.0.0+4
+  iconsax: ^0.0.8
+  dio: ^5.9.0
+  carousel_slider: ^5.1.1
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.3
+  flutter_email_sender: ^7.0.0
+  email_otp: ^3.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: "^0.13.1"
+
+# ADD THIS NEW SECTION FOR APP ICONS
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/my_library.jpg" 
+  adaptive_icon_background: "#FFFFFF"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/Illustration/
+    - assets/flags/
+    - assets/logo/
+    - assets/gif/
+
+  fonts:
+    - family: Plus Jakarta
+      fonts:
+        - asset: assets/fonts/plus_jakarta/PlusJakartaDisplay-Regular.otf
+        - asset: assets/fonts/plus_jakarta/PlusJakartaDisplay-Medium.otf
+          weight: 500
+        - asset: assets/fonts/plus_jakarta/PlusJakartaDisplay-Bold.otf
+          weight: 700
+    - family: Grandis Extended
+      fonts:
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Regular.ttf
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Thin.ttf
+          weight: 300
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/grandis_extended/GrandisExtended-Black.ttf
+          weight: 900

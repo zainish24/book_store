@@ -1,0 +1,151 @@
+# Firebase Configuration Files
+firebase.json
+lib/firebase_options.dart
+.firebaserc
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+web/firebase-config.js
+
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+.dart_tool/
+*.dart.js
+*.js.map
+*.js.deps
+*.part.js
+
+# Android
+android/.gradle/
+android/.idea/
+android/app/build/
+android/build/
+android/local.properties
+android/gradle.properties
+android/**/*.apk
+android/**/*.ap_
+android/**/*.aab
+android/**/output.json
+
+# iOS
+ios/.generated/
+ios/Flutter/App.framework/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+ios/Pods/
+ios/.symlinks/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Web
+web/.last_build_id
+web/assets/
+
+# macOS
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/.symlinks/
+
+# Windows
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
+windows/flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugins.cmake
+
+# IDE Files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+coverage/
+*.lcov
+
+# Misc
+.metadata
+.sconsign.dblite
+*.class
+*.lock
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.lib
+*.a
+*.pyc
+*.jar
+*.keystore
+*.p12
+*.pem
+*.crt
+*.key
+*.pub
+*.der
+*.pfx
+*.mobileprovision
+*.orig
+*.swo
+*.swn
+*.swp
+
+# Temp Files
+*.tmp
+*.temp
+.cache/
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Environment Files
+.env
+.env.local
+.env.production
+.env.development
+
+# Documentation
+doc/api/
+
+# FVM
+.fvm/
+
+# Flutter Version Management
+.flutter/
